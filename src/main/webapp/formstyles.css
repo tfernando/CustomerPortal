@@ -1,0 +1,49 @@
+input[type=text], select {
+	width: 190px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date], select {
+	width: 190px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 190px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	position: relative;
+	top: 20px;
+	left: 25px;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+div {
+	width: 600px;
+	height: 400px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border: 25px;
+	padding: 25px;
+	position: relative;
+	top: 15px;
+	left: 360px;
+}

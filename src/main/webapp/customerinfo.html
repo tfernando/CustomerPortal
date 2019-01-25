@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Form</title>
+
+<link rel="stylesheet" href="formstyles.css">
+</head>
+<body>
+	<h2><center>Customer Form</center></h2>
+	<div  align="center">
+		<form method="post" action="customer">
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<br><br>
+			
+			<label for="lname">Last Name:</label> 
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<br><br>
+			
+			<label for="bday">Birthday:</label>
+			<input type="date" id="bday" name="birthday" placeholder="mm/dd/yyyy">
+			<br><br>
+			
+			<label for="country">Country:</label>
+			<select id="country" name="country">
+				<option value="Australia">Australia</option>
+				<option value="Canada">Canada</option>
+				<option value="USA">USA</option>
+			</select> 
+			<br><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
